@@ -1,0 +1,12 @@
+{
+  "name": "@lib/global-styles",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "files": ["lib"],
+  "main": "./lib/index.js",
+  "exports": {
+    "./global.scss": "./lib/global.scss",
+    "./variables.scss": "./lib/variables.scss"
+  }
+}
